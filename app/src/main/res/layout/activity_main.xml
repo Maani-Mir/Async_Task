@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lorem_ipsum_i_guess"
+        android:layout_marginStart="16dp"
+        android:textSize="35sp"
+
+         />
+
+    <Button
+        android:id="@+id/btnSetText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_text"
+        android:layout_marginTop="190dp"
+        android:layout_marginStart="100dp"
+        android:onClick="startTask"
+
+        />
+
+</RelativeLayout>
